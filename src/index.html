@@ -1,0 +1,33 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <table id="data_display">
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>Name</td>
+                <td>Edit</td>
+                <td>Delete</td>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <div class="input-wrapper">
+        <input type="text" id="in_in">
+        <button onclick="create()">ADD PRODUCT</button>
+    </div>
+</div>
+
+
+
+<script src="js/loadData.js"></script>
+<script src="js/createProduct.js"></script>
+<script src="js/editProduct.js"></script>
+<script src="js/deleteProduct.js"></script>
+</body>
+</html>

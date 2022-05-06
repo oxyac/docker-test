@@ -1,0 +1,71 @@
+
+.link {
+	cursor: pointer;
+	color: grey;
+	font-size: 12pt;	
+}
+.crud-i {
+	display: table-cell;
+	text-align: center;
+}
+body, html {
+	margin: 0 auto;
+}
+body {
+	display: flex;
+	justify-content: center;
+	font-family: Helvetica;
+}
+table {
+	width: 60%;
+	font-size: 14pt;
+	border-collapse: collapse;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+#data_display td, #data_display th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#data_display tr:nth-child(even){background-color: #f2f2f2;}
+
+#data_display tr:hover {background-color: #ddd;}
+
+#data_display thead tr td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #9a0931;
+    color: white;
+}
+.wrapper {
+	padding: 20px 0 0 0;
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+.input-wrapper {
+	padding: 10px;
+}
+thead tr td {
+	font-weight: bold;
+}
+
+td {
+	padding: 8px 0 8px 0;
+	border-bottom: 1px solid grey;
+}
+button {
+	border: none;
+	padding: 5px 8px;
+	background-color: #9a0931;
+	cursor: pointer;
+	color: white;
+	border-radius: 8px;
+}
+input {
+	border: 2px solid #9a0931;
+	border-radius: 5px;
+	padding: 5px 8px;
+}
