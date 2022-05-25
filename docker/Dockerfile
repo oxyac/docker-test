@@ -6,12 +6,14 @@ RUN apt-get update && apt-get install -y \
 	zip \
 	unzip \
     vim \
-    emacs
+    emacs \
+    nano
 
 
 
 
-RUN docker-php-ext-install pdo_mysql pdo
+
+RUN docker-php-ext-install pdo pdo_mysql mysqli && docker-php-ext-enable pdo pdo_mysql mysqli
 
 ENV COMPOSER_HOME ./.composer
 
